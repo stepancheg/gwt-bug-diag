@@ -1,6 +1,6 @@
-=== Reproduce a GWT problem
+### Reproduce a GWT problem
 
-=== Problem
+## Problem
 
 On some incorrect programs GWT fails to report error properly (with file and line number)
 and shows meaningless `java.lang.IndexOutOfBoundsException: Index: 0` exception instead:
@@ -11,7 +11,7 @@ the cause.
 
 I've found the simplest case for that exception.
 
-=== How to reproduce
+## How to reproduce
 
 1. Clone the repository
 2. comment out call to nonexistent `foo()` function in class `Cccc`.
