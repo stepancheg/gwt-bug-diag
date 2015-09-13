@@ -1,5 +1,8 @@
 #!/bin/sh -e
 
+# clear caches, so they don't interfere
+rm -rf $TMPDIR/gwt*
+
 #GWT_HOME=$(dirname $0)/lib
 : ${GWT_HOME:=$HOME/usr/gwt-2.7.0}
 
