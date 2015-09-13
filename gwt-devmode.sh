@@ -2,6 +2,7 @@
 
 # clear caches, so they don't interfere
 rm -rf $TMPDIR/gwt*
+rm -rf gwt-unitCache
 
 #GWT_HOME=$(dirname $0)/lib
 : ${GWT_HOME:=$HOME/usr/gwt-2.7.0}
